@@ -1,10 +1,5 @@
-Esta guia tiene 2 idiomas disponibles
-
-- **español**
-
-- **ingles**
-
-## Guia en español
+**This guide is intended to be in Spanish, use Google Translate to view it correctly.**
+---
 
 # Introduccion
 
@@ -113,7 +108,7 @@ si simplemente quieres agregar un video y modificarlo despues a tu gusto
 
 como unico paso ejecuta el siguienten codigo html
 
-```
+```HTML
 
 <video height="50" width="50" controls>
 
@@ -130,15 +125,90 @@ tu navegador no soporta videos mp4
 
 ---
 
-## Lista de videos disponibles en el repositorio
+## importante ‼️
 
-- **nature.hd.mp4 (video de naturaleza)** 
+**en estos ejemplos no se especifico un detalle importante**
 
-- **nature.two.hd.mp4 (video de  naturelaza 2)**
+**si estas usando el metodo de video de BG, El contenido principal aparte del video debe tener unas configuraciones extras**
 
-- **bike.waves.hd.mp4 (video de olas de una playa)**
+Si esto no es considerado podrias tener los siguientes errores
 
-> el texto encerrado en () NO forma parte del nombre del archivo, es una descripcion breve
+- **Problemas con la adaptacion del tamaño del video de fondo**
+
+- **Visualmente Nada atractivo**
+
+- **todos los anteriores**
 
 
 ---
+
+### ¿Cómo solicionar?
+
+primero encierre su codigo principal en una etiqueta `<div></div>` 
+
+> Con "codigo principal" tambien se toma cuenta el `<header>` y el `<footer>` de su web
+
+> NO incluir la etiqueta `<video>` en el div
+
+Ahora agregue una clase al elemento div, La clase y su nombre son de preferencia pero podria ponerle de nombre **layer** O **main**
+
+Ahora si quiere un mejor ejemplo podria ver o copiar este codigo html de ejemplo
+
+---
+
+```HTMl
+
+<div class="layer">
+
+<!---- Main Content Here ----<
+
+</div>
+
+<div class="container">
+
+<video autoplay muted loop>
+
+<source src="https://Ovi11-dev.github.io/videos/video.mp4>
+
+Tu navegador no soporta videos mp4
+
+</video>
+
+</div>
+
+```
+
+> Recuerda remplazar "video.mp4" con algunos de los que puedes encontrar en este repositorio
+
+--- 
+
+Ahora teniendo esto en cuenta, Vea o copie el siguiente codigo CSS
+
+```CSS
+
+.layer { 
+    
+    position: absolute;
+    
+    z-index: 1;
+}
+
+```
+---
+
+**¡Y listo! Este problema habra sido arreglado**
+
+## Lista de vidos disponibles actualmente
+
+- nature.hd.mp4 (video sobre naturaleza)
+
+- nature.hd.mp4 (version mejorada de el primero pero menos hecho para repetirse en bucle)
+
+- bike.waves.hd.mp4 (video sobre olas de una playa)
+
+> Los () NO forman parte del nombre del archivo, son una descripcion rapida de su contenido
+
+
+
+---
+
