@@ -1,0 +1,87 @@
+body {
+  
+  margin: 0;
+  
+  background: whitesmoke;
+}
+
+
+
+section {
+  
+  background: white;
+  
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.450);
+  
+  border-radius: 15px;
+  
+  margin: 40px 5px;
+  
+  padding: 13px 0;
+  
+  text-align: center;
+  
+  
+  
+}
+
+#title {
+  
+  
+  
+  height: 120px;
+  
+  width: auto;
+  
+  transform: translateX(10%);
+  
+}
+
+#heart {
+  
+  color: red;
+  
+  display: block;
+  
+  font-size: 35px;
+  
+  animation: 1.6s heart infinite;
+  
+}
+
+a {
+  
+  color: blue;
+  
+  text-decoration: none;
+  
+}
+
+a:hover {
+  
+  text-decoration: underline blue;
+}
+
+.code {
+  
+  display: block;
+  
+  background: grey;
+  
+  color: white;
+  
+  margin: 0 10px;
+  
+}
+@keyframes heart {
+  
+  50% {
+    
+    transform: scale(1.5);
+  }
+  
+  100% {
+    
+    transform: scale(1);
+  }
+}

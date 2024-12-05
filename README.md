@@ -39,7 +39,7 @@ Ahora en su pagina web coloque una etiqueta video
 
 <video autoplay muted loop class="v"> 
 
-      <source src="https://Ovi11-dev.github.io/videos/nature.hd.mp4" type="video/mp4"> 
+      <source src="https://Ovi11-dev.github.io/VFYW/videos/nature.hd.mp4" type="video/mp4"> 
 
 Tu navegador no soporta el elemento de video.
         
@@ -112,7 +112,7 @@ como unico paso ejecuta el siguienten codigo html
 
 <video height="50" width="50" controls>
 
-<source src="https://Ovi11-dev.github.io/videos/nature.hd.mp4" type="video/mp4">
+<source src="https://Ovi11-dev.github.io/VFYW/videos/nature.hd.mp4" type="video/mp4">
 
 tu navegador no soporta videos mp4
 
@@ -121,7 +121,39 @@ tu navegador no soporta videos mp4
 
 ```
 
+
+
 **¡y listo ya tendras tu video para tu web!**
+
+---
+
+## **Extra: ¿Como descargar?
+
+Para descargar un video, Es relativamente facil
+
+Esto sera hecho en una terminal, como unico requisito, Tener a `wget` instalado.
+
+**Sólo un comando y ya**
+
+copia y pega el siguiente comando en tu terminal, Luego sigue las indicaciones
+
+```bash
+
+wget https://Ovi11-dev.github.io/VFYW/videos/<video>
+
+```
+
+---
+
+**indicaciones:**
+
+- Cambia `<video>` por el nombre del video correspondiente
+
+- verificar la instalacion con el comando `ls` en su directorio
+
+- tener de antemano a `wget` instalado
+
+
 
 ---
 
@@ -142,13 +174,12 @@ Si esto no es considerado podrias tener los siguientes errores
 
 ---
 
-### ¿Cómo solicionar?
+### ¿Cómo solucionar?
 
 primero encierre su codigo principal en una etiqueta `<div></div>` 
 
-> Con "codigo principal" tambien se toma cuenta el `<header>` y el `<footer>` de su web
-
-> NO incluir la etiqueta `<video>` en el div
+> [!NOTE]
+> Con "codigo principal" tambien se toma cuenta el `<header>` y el `<footer>` de su web. NO incluir la etiqueta `<video>` en el div
 
 Ahora agregue una clase al elemento div, La clase y su nombre son de preferencia pero podria ponerle de nombre **layer** O **main**
 
@@ -168,7 +199,7 @@ Ahora si quiere un mejor ejemplo podria ver o copiar este codigo html de ejemplo
 
 <video autoplay muted loop>
 
-<source src="https://Ovi11-dev.github.io/videos/video.mp4>
+<source src="https://Ovi11-dev.github.io/VFYW/videos/video.mp4>
 
 Tu navegador no soporta videos mp4
 
@@ -206,6 +237,17 @@ Ahora teniendo esto en cuenta, Vea o copie el siguiente codigo CSS
 
 - bike.waves.hd.mp4 (video sobre olas de una playa)
 
+- technology.hd.mp4 (video en bucle)
+
+- circle.neon.hd.mp4 (circulo neon en bucle)
+
+- red.bg.hd.mp4 (video de un fondo rojo con brillitos en bucle)
+
+- car.hd.mp4 (video de carro en hd en bucle)
+
+- BG.neon.hd.mp4 (video en bucle para fondos)
+
+> ![NOTE]
 > Los () NO forman parte del nombre del archivo, son una descripcion rapida de su contenido
 
 
