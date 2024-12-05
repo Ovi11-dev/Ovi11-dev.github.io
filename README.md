@@ -153,6 +153,44 @@ wget https://Ovi11-dev.github.io/VFYW/videos/<video>
 
 - tener de antemano a `wget` instalado
 
+---
+
+
+## Ejemplos
+
+**Aqui se mostraran ejemplos de como deberia verse**
+
+Contenido actual:
+
+- ** 2 GIFs 👾**
+
+- ** 1 img 🖼️**
+
+---
+
+
+### ¿Cómo deberia verse el video BG? [GIF 👾]
+
+**ejemplo:**
+
+![BG video ejemplo](https://Ovi11-dev.github.io/VFYW/examples/BG_video_example.gif)
+
+---
+
+### ¿Cómo deberia verse el video? [GIF 👾]
+
+**ejemplo:**
+
+![video ejemplo](https://Ovi11-dev.github.io/VFYW/examples/video_example.gif)
+
+---
+
+### ¿Como deberia verse lo retornado por `wget` y `ls`]? [img 🖼️]
+
+**ejemplo: **
+
+![comandos ejemplo](https://Ovi11-dev.github.io/VFYW/examples/wget_example.jpg)
+
 
 
 ---
