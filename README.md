@@ -173,7 +173,7 @@ Contenido actual:
 
 **ejemplo:**
 
-![BG video ejemplo](https://Ovi11-dev.github.io/VFYW/examples/video_ejemplo.png)
+![IMG](https://Ovi11-dev.github.io/VFYW/examples/video_ejemplo.png)
 
 ---
 
@@ -181,7 +181,7 @@ Contenido actual:
 
 **ejemplo:**
 
-![video ejemplo](https://Ovi11-dev.github.io/VFYW/examples/BG_video_ejemplo.png)
+![img](https://Ovi11-dev.github.io/VFYW/examples/BG_video_ejemplo.png)
 
 ---
 
