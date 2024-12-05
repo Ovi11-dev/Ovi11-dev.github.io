@@ -9,6 +9,8 @@ Esto es un repositiorio personal, Aunque tambien esta pensado para ser usado por
 
 Aqui se guardaran videos para que los puedas usar de fondo en tus paginas web
 
+> [!NOTE]
+> Recuerda que puedes visitar [mi sitio web](https://Ovi11-dev.github.io/VFYW/page/VFYW%20-%20page/index.html) sobre VFYW :)
 ---
 
 ## ¿Como acceder a los videos?
@@ -25,7 +27,7 @@ Aunque se le puede dar otros usos estan hechos para tus paginas
 
 ## 1. Video para el BG de tus paginas
 
-Primero es de tener en cuenta la URL necesaria, Primero copie la URL `https://Ovi11.github.io/VFYW/videos/<video>`
+Primero es de tener en cuenta la URL necesaria, Primero copie la URL `https://Ovi11-dev.github.io/VFYW/videos/<video>`
 
 **Al final de esta seccion se mostraran rapidamente todos los videos disponibles actualmente**
 
@@ -127,7 +129,7 @@ tu navegador no soporta videos mp4
 
 ---
 
-## **Extra: ¿Como descargar?
+## **Extra: ¿Como descargar?**
 
 Para descargar un video, Es relativamente facil
 
@@ -208,7 +210,7 @@ Tu navegador no soporta videos mp4
 </div>
 
 ```
-
+> [!NOTE]
 > Recuerda remplazar "video.mp4" con algunos de los que puedes encontrar en este repositorio
 
 --- 
@@ -247,10 +249,13 @@ Ahora teniendo esto en cuenta, Vea o copie el siguiente codigo CSS
 
 - BG.neon.hd.mp4 (video en bucle para fondos)
 
-> ![NOTE]
+> [!NOTE]
 > Los () NO forman parte del nombre del archivo, son una descripcion rapida de su contenido
 
+---
 
+> [!IMPORTANT]
+> Viste mi sitio de [preview de los videos actuales](https://ovi11-dev.github.io/VFYW/page/VFYW%20-%20page/preview.html)
 
 ---
 
