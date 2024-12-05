@@ -25,7 +25,7 @@ Aunque se le puede dar otros usos estan hechos para tus paginas
 
 ## 1. Video para el BG de tus paginas
 
-Primero es de tener en cuenta la URL necesaria, Primero copie la URL `https://ovi11-dev.github.io/videos/video_name.mp4`
+Primero es de tener en cuenta la URL necesaria, Primero copie la URL `https://Ovi11.github.io/VFYW/videos/<video>`
 
 **Al final de esta seccion se mostraran rapidamente todos los videos disponibles actualmente**
 
